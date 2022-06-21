@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <../Random_Stuff/swap.h>
 
 int rbs(int arr[], int l, int r, int k) {
 int mid = (l+r)/2;
