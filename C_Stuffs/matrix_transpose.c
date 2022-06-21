@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void main() {
-    int arr_a[3][3],arr_b[3][3],arr_c[3][3];
+    int arr_a[3][3];
     
   printf("Enter the Element of A Array");
     for(int i=0; i<3; i++) {
@@ -12,7 +12,7 @@ void main() {
   
     for(int i=0; i<3; i++) {
       for(int i=0; i<3; i++) {
-           printf("%d",arr_c[j][i]);
+           printf("%d",arr_a[j][i]);
       }
     }
   
